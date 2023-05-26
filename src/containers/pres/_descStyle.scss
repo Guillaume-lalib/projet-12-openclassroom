@@ -1,0 +1,41 @@
+#content {
+  background: white;
+  border-radius: 0px 0px 30px 30px;
+}
+.containers {
+  display: flex;
+  .left {
+    width: 500px;
+    background: url(../image/profil.jpg);
+    background-size: cover;
+  }
+  .right {
+    width: 100%;
+    h2 {
+      margin: 50px 80px;
+      font-size: 2.2rem;
+    }
+    p {
+      margin: 0px 50px;
+      text-align: justify;
+      line-height: 25px;
+    }
+    .link {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 20px;
+      margin: 40px 40px;
+      a {
+        border-radius: 5px;
+        text-align: center;
+        width: 100px;
+        padding: 6px 0px;
+        background-color: rgba(17, 0, 255, 0.048);
+        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.01),
+          inset -2px -5px 10px rgba(255, 255, 255, 0.9),
+          15px 15px 10px rgba(0, 0, 0, 0.05),
+          15px 10px 15px rgba(0, 0, 0, 0.025);
+      }
+    }
+  }
+}

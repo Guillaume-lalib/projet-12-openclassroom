@@ -1,0 +1,29 @@
+@font-face {
+  font-family: roboto;
+  src: url(./font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Opensans;
+  src: url(./font/OpenSans.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: roboto;
+  color: black;
+}
+body {
+  overflow-x: hidden;
+  background-color: rgb(240, 240, 240);
+  margin: 0px auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: opensans;
+  font-size: 1.5rem;
+}

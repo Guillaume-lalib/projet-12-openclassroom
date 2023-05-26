@@ -1,0 +1,17 @@
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 23%;
+  padding: 15px 0px;
+  .logo {
+    margin-left: 6%;
+  }
+  .navbar ul {
+    display: flex;
+    gap: 80px;
+    li {
+      font-size: 1.3rem;
+    }
+  }
+}

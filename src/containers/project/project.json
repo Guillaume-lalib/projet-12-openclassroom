@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1965132",
+    "id1": "19650132",
+    "title": "KASA",
+    "content": "Créez une application web de location immobilière",
+    "mission": "Le projet consiste à développer une application web interactive et réactive en utilisant la bibliothèque JavaScript ReactJS. L'objectif principal est de créer une interface utilisateur moderne, performante et conviviale, qui offre une expérience utilisateur fluide et réactive. Conception de l'architecture, développement des composants, gestion de l'état de l'application(Redux), intégration de l'API.",
+    "lien": "https://github.com/Guillaume-lalib/projet-8-openclassroom",
+    "skill": ["HTML", "SASS", "ReactJS"],
+    "img": "image/kasa.png"
+  },
+  {
+    "id": "574248",
+    "id1": "5740248",
+    "title": "Nina Carducci",
+    "content": "Optimisez le référencement d'un site de photographe",
+    "mission": "Le projet d'optimisation SEO, d'accessibilité et de performance web a pour objectif d'améliorer la visibilité, l'accessibilité et les performances d'un site web existant. Il vise à optimiser le classement du site dans les moteurs de recherche, à rendre le site accessible à tous les utilisateurs, y compris ceux ayant des handicaps, et à améliorer les temps de chargement et l'expérience utilisateur globale. Audit SEO, optimisation du contenue, amélioration de l'accessibilité, amélioration de l'accessibilité, optimisation des performances.",
+    "lien": "https://github.com/Guillaume-lalib/projet-9-openclassroom",
+    "skill": ["SEO", "Accessibilité avec Wave", "Performance de site"],
+    "img": "image/nina.png"
+  },
+  {
+    "id": "9865342",
+    "id1": "98653042",
+    "title": "724 Event",
+    "content": "Débuggez le site d'une agence d'événementiel",
+    "mission": "Le projet de débogage Web vise à résoudre les problèmes techniques et les erreurs rencontrés dans une application Web existante. L'objectif principal est d'identifier, comprendre et corriger les bugs, les problèmes de performance et les dysfonctionnements de l'application pour améliorer son fonctionnement global. Identification des problèmes, analyse des erreurs, correction des bugs, tests de validation.",
+    "lien": "https://github.com/Guillaume-lalib/projet-10-openclassroom",
+    "skill": ["Chrome DevTools", "Création de test"],
+    "img": "image/724event.png"
+  },
+  {
+    "id": "2685321",
+    "id1": "26853210",
+    "title": "ArgentBank",
+    "content": "Implémentez le front-end d'une application bancaire avec React",
+    "mission": "Redux et Redux Toolkit sont des bibliothèques JavaScript utilisées pour gérer l'état global des applications. Elles offrent des solutions efficaces pour la gestion des données, la mise à jour de l'état et la communication entre les différents composants de l'application. Les principaux concepts de Redux sont les suivants : Store, Actions, Reducers, Dispatch.",
+    "lien": "https://github.com/Guillaume-lalib/projet-11-openclassroom.git",
+    "skill": ["HTML", "SASS", "ReactJS", "Redux / Redux ToolKit"],
+    "img": "image/bank.png"
+  }
+]
