@@ -6,7 +6,7 @@
   .background-form {
     background-color: rgba(255, 255, 255, 0.349);
     backdrop-filter: blur(2px);
-    width: 1000px;
+    max-width: 1000px;
     padding-top: 1px;
     margin: auto;
     border-radius: 20px;
@@ -69,5 +69,12 @@
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.123);
     height: 35px;
+  }
+  @media screen and (max-width: 1000px) {
+    form {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

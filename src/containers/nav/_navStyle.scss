@@ -12,3 +12,26 @@
     }
   }
 }
+@media screen and (max-width: 830px) {
+  .nav {
+    flex-direction: column;
+    ul {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 670px) {
+    li {
+      font-size: 1rem !important;
+    }
+  }
+  @media screen and (max-width: 580px) {
+    ul {
+      gap: 20px !important;
+    }
+  }
+  @media screen and (max-width: 386px) {
+    ul {
+      gap: 8px !important;
+    }
+  }
+}

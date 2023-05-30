@@ -42,7 +42,7 @@
     "content": "Implémentez le front-end d'une application bancaire avec React",
     "mission": "Redux et Redux Toolkit sont des bibliothèques JavaScript utilisées pour gérer l'état global des applications. Elles offrent des solutions efficaces pour la gestion des données, la mise à jour de l'état et la communication entre les différents composants de l'application. Les principaux concepts de Redux sont les suivants : Store, Actions, Reducers, Dispatch.",
     "lien": "https://github.com/Guillaume-lalib/projet-11-openclassroom.git",
-    "skill": ["HTML", "SASS", "ReactJS", "Redux / Redux ToolKit"],
+    "skill": ["HTML", "SASS", "ReactJS", "Redux"],
     "img": "image//bank/bank.png",
     "img2": "image//bank/bank2.png",
     "img3": "image//bank/bank3.png"

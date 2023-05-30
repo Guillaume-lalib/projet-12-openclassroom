@@ -30,6 +30,21 @@ h4 {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 830px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  h1,
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  h3,
+  h4 {
+    font-size: 1.2rem !important;
+  }
+}
 .nav {
   background-color: white;
   display: flex;
@@ -45,6 +60,29 @@ h4 {
   font-size: 1.3rem;
 }
 
+@media screen and (max-width: 830px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav ul {
+    display: flex;
+  }
+}
+@media screen and (max-width: 830px) and (max-width: 670px) {
+  li {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 830px) and (max-width: 580px) {
+  ul {
+    gap: 20px !important;
+  }
+}
+@media screen and (max-width: 830px) and (max-width: 386px) {
+  ul {
+    gap: 8px !important;
+  }
+}
 #error {
   display: flex;
   flex-direction: column;
@@ -86,7 +124,7 @@ h4 {
   background-color: rgba(255, 255, 255, 0.349);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  width: 1000px;
+  max-width: 1000px;
   padding-top: 1px;
   margin: auto;
   border-radius: 20px;
@@ -147,6 +185,13 @@ h4 {
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.123);
   height: 35px;
+}
+@media screen and (max-width: 1000px) {
+  #form form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #header {
@@ -214,6 +259,11 @@ h4 {
   padding: 6px 0px;
   background-color: rgba(17, 0, 255, 0.048);
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.01), inset -2px -5px 10px rgba(255, 255, 255, 0.9), 15px 15px 10px rgba(0, 0, 0, 0.05), 15px 10px 15px rgba(0, 0, 0, 0.025);
+}
+@media screen and (max-width: 1313px) {
+  .containers .left {
+    display: none;
+  }
 }
 
 .modal {
@@ -287,6 +337,25 @@ h4 {
   margin-bottom: 30px;
   font-size: 3rem;
 }
+@media screen and (max-width: 1313px) {
+  .list .language {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 870px) {
+  .list .language {
+    margin: 0px 10px;
+  }
+  .list .language .bubble {
+    width: 150px;
+    height: 150px;
+    font-size: 1rem;
+  }
+  .list .language .bubble i {
+    font-size: 2rem;
+  }
+}
 
 #projectList {
   margin-top: 200px;
@@ -304,7 +373,7 @@ h4 {
 #projectList .card {
   border: 3px solid rgb(240, 240, 240);
   display: flex;
-  height: 720px;
+  height: 750px;
 }
 #projectList .card .card-right {
   display: flex;
@@ -321,7 +390,9 @@ h4 {
 }
 #projectList .card .card-right ul {
   display: flex;
+  flex-wrap: wrap;
   margin: 30px 10px;
+  row-gap: 10px;
 }
 #projectList .card .card-right ul li {
   margin-left: 10px;
@@ -355,4 +426,46 @@ h4 {
 #projectList .card .card-left img:hover {
   cursor: pointer;
   scale: 1.2;
+}
+@media screen and (max-width: 1313px) {
+  #projectList .grid-list {
+    display: block;
+  }
+  #projectList .grid-list .card {
+    border: none;
+    flex-direction: column-reverse;
+  }
+  #projectList .grid-list .card .card-right {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  #projectList .grid-list .card .card-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  #projectList .grid-list .card .card-left img {
+    width: 230px;
+  }
+}
+@media screen and (max-width: 790px) {
+  #projectList .card {
+    height: auto;
+  }
+  #projectList .card .card-left {
+    gap: 0px !important;
+  }
+}
+@media screen and (max-width: 690px) {
+  #projectList .card-left {
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (max-width: 464px) {
+  #projectList h2 {
+    margin: auto;
+    text-align: center;
+  }
 }/*# sourceMappingURL=index.css.map */

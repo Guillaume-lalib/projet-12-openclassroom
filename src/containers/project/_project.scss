@@ -13,7 +13,7 @@
   .card {
     border: 3px solid rgb(240, 240, 240);
     display: flex;
-    height: 720px;
+    height: 750px;
     .card-right {
       display: flex;
       flex-direction: column;
@@ -28,7 +28,9 @@
       }
       ul {
         display: flex;
+        flex-wrap: wrap;
         margin: 30px 10px;
+        row-gap: 10px;
         li {
           margin-left: 10px;
           padding: 6px 30px;
@@ -69,6 +71,48 @@
           scale: 1.2;
         }
       }
+    }
+  }
+  @media screen and (max-width: 1313px) {
+    .grid-list {
+      display: block;
+      .card {
+        border: none;
+        flex-direction: column-reverse;
+        .card-right {
+          text-align: center;
+          align-items: center;
+          width: 100%;
+        }
+        .card-left {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 50px;
+          img {
+            width: 230px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 790px) {
+    .card {
+      height: auto;
+      .card-left {
+        gap: 0px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 690px) {
+    .card-left {
+      flex-wrap: wrap !important;
+    }
+  }
+  @media screen and (max-width: 464px) {
+    h2 {
+      margin: auto;
+      text-align: center;
     }
   }
 }
