@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import dataP from "./project.json";
+
 const Project = () => {
   return (
     <div id="projectList">

@@ -20,8 +20,8 @@
     "lien": "https://github.com/Guillaume-lalib/projet-9-openclassroom",
     "skill": ["SEO", "Accessibilité avec Wave", "Performance de site"],
     "img": "image//nina/nina.png",
-    "img2": "image/kasa.png",
-    "img3": "image/kasa.png"
+    "img2": "image//nina/nina2.png",
+    "img3": "image//nina/nina3.png"
   },
   {
     "id": "9865342",
@@ -32,8 +32,8 @@
     "lien": "https://github.com/Guillaume-lalib/projet-10-openclassroom",
     "skill": ["Chrome DevTools", "Création de test"],
     "img": "image/724/724event.png",
-    "img2": "image/kasa.png",
-    "img3": "image/kasa.png"
+    "img2": "image/724/724event2.png",
+    "img3": "image/724/724event3.png"
   },
   {
     "id": "2685321",
@@ -44,7 +44,7 @@
     "lien": "https://github.com/Guillaume-lalib/projet-11-openclassroom.git",
     "skill": ["HTML", "SASS", "ReactJS", "Redux / Redux ToolKit"],
     "img": "image//bank/bank.png",
-    "img2": "image/kasa.png",
-    "img3": "image/kasa.png"
+    "img2": "image//bank/bank2.png",
+    "img3": "image//bank/bank3.png"
   }
 ]
