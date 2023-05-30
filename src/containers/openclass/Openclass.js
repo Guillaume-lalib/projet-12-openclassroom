@@ -5,7 +5,7 @@ import Project from "../project/Project";
 const Openclass = () => {
   return (
     <section id="openclass">
-      <h2>Mes competances et outils</h2>
+      <h2>Mes competences et outils</h2>
       <div className="list">
         <div className="language">
           <div className="bubble">

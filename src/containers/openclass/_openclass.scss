@@ -21,6 +21,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 100px;
     .bubble {
+      font-size: 1.4rem;
+      background-color: #aaaaaa34;
       width: 220px;
       height: 220px;
       margin: auto;
@@ -28,116 +30,16 @@
       align-items: center;
       flex-direction: column;
       display: flex;
-      box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
-        25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
-        inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+      box-shadow: 25px 35px 20px rgba(0, 0, 0, 0.05),
+        25px 30px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 15px;
       i {
-        transition: 0.7;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
         font-size: 3rem;
-        background-color: #eff0f434;
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.01),
-          inset -2px -5px 10px rgba(255, 255, 255, 0.9),
-          15px 15px 10px rgba(0, 0, 0, 0.05),
-          15px 10px 15px rgba(0, 0, 0, 0.025);
       }
     }
-    .bubble:nth-child(1) {
-      background-color: #ff583354;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(2) {
-      background-color: #2677d442;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(3) {
-      background-color: #c362913d;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(4) {
-      background-color: #eab32846;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(5) {
-      background-color: #37c9f148;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(6) {
-      background-color: #ff000054;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(7) {
-      background-color: #2629d442;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(8) {
-      background-color: #46ca353d;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(9) {
-      background-color: #ea28da46;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    .bubble:nth-child(10) {
-      background-color: #ca7f1d48;
-      border-radius: 25%;
-      transition: 1s;
-      &:hover {
-        border-radius: 50%;
-      }
-    }
-    // .bubble:nth-child(11) {
-    //   opacity: 1 !important;
-    //   right: 55.5%;
-    //   width: 350px;
-    //   height: 350px;
-    //   border-radius: 50%;
-    //   overflow: hidden;
-    //   img {
-    //     height: 200px;
-    //   }
-    // }
   }
 }
