@@ -38,9 +38,6 @@ const Openclass = () => {
           <div className="bubble">
             <i className="fa-solid fa-mobile-screen-button"></i>RESPONSIVITÉ
           </div>
-          {/* <div className="bubble">
-            <img src={pc} alt="" />
-          </div> */}
         </div>
       </div>
       <Project />

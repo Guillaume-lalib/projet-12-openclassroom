@@ -8,11 +8,11 @@ const Project = () => {
       <h2>Exemple de projet réalisé</h2>
       <div className="grid-list">
         {dataP.map((data) => (
-          <div className="card" key={data.id}>
+          <div className="card">
             <div className="card-left">
-              <img src={data.img} alt="" />
-              <img src={data.img2} alt="" />
-              <img src={data.img3} alt="" />
+              <img src={data.img} alt="screenshot du site" />
+              <img src={data.img2} alt="screenshot du site" />
+              <img src={data.img3} alt="screenshot du site" />
             </div>
             <div className="card-right">
               <h3>{data.title}</h3>
@@ -20,10 +20,10 @@ const Project = () => {
               <p>{data.mission}</p>
               <ul>
                 {data.skill.map((data) => (
-                  <li>{data}</li>
+                  <li key={data.id1}>{data}</li>
                 ))}
               </ul>
-              <Link to={data.lien} target="_blank">
+              <Link to={data.lien} target="_blank" key={data.id}>
                 Lien Github
               </Link>
             </div>
