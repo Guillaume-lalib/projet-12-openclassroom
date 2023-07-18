@@ -36,7 +36,7 @@ const Content = () => {
             répondent aux besoins des utilisateurs.
           </p>
           <div className="link">
-            <Link to="https://www.google.com" target="_blank">
+            <Link to="www.linkedin.com/in/guillaume-laliberté-493aa1282" target="_blank">
               Linkedin
             </Link>
             <Link to="https://www.google.com" target="_blank">

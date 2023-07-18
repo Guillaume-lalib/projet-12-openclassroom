@@ -29,7 +29,7 @@ const Form = () => {
   return (
     <section id="form">
       <div className="background-form">
-        <h2>Contactez moi</h2>
+        <h2>Contacter moi</h2>
         <form ref={form} onSubmit={sendEmail}>
           <div className="left-form">
             <label htmlFor="name">Nom</label>
@@ -57,7 +57,7 @@ const Form = () => {
               required
             />
           </div>
-          <input className="confirm" type="submit" value="Envoyez" />
+          <input className="confirm" type="submit" value="Envoyer" />
         </form>
       </div>
       <Modal show={show} setShow={setShow}>
