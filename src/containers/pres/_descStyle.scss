@@ -2,12 +2,15 @@
   background: white;
   border-radius: 0px 0px 30px 30px;
 }
+.image {
+  object-fit: cover;
+  overflow: hidden;
+}
 .containers {
   display: flex;
   .left {
-    width: 500px;
+    width: 495px;
     background: url(../image/profil.jpg);
-    background-size: cover;
   }
   .right {
     width: 100%;
